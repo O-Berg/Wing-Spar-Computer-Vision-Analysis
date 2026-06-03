@@ -1,6 +1,6 @@
-# Wing Spar Analysis
+# Wing Spar Analysis - Design & Construction Final Report
 
-Python scripts and source data for comparing wing spar load test data with computer vision displacement and twist tracking.
+Python scripts, source data, and generated figures for the final report of the first-year Design & Construction course at AE TU Delft. The analysis compares wing spar load test data with computer vision displacement and twist tracking.
 
 ## Project Contents
 
