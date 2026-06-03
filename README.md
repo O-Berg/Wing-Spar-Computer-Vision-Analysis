@@ -36,25 +36,37 @@ python scripts/analysis.py --video raw/IMG_5710.mov
 
 ## Report Figures
 
-| Load response | TOF and CV displacement |
-| --- | --- |
-| ![Load response](figures/ReportFinal_Load.png) | ![TOF and CV displacement](figures/ReportFinal_Displacement.png) |
-
-| Offset sweep and overlay | Twist angle |
-| --- | --- |
-| ![Offset sweep and displacement overlay](figures/ReportFinal_SweepOverlay.png) | ![Twist angle](figures/ReportFinal_Twist.png) |
-
-| TOF vs CV comparison | Noise standard deviation |
-| --- | --- |
-| ![TOF vs CV comparison](figures/ReportFinal_TOF_vs_CV.png) | ![Noise standard deviation](figures/ReportFinal_NoiseStd.png) |
-
-| Trend check | Difference correlation |
-| --- | --- |
-| ![Trend check](figures/ReportFinal_TrendCheck.png) | ![Difference correlation](figures/ReportFinal_DiffCorr.png) |
-
-| Difference fit |
+| Load over time |
 | --- |
-| ![Difference fit](figures/ReportFinal_DiffFits.png) |
+| ![Load over time](figures/ReportFinal_Load.png) |
+
+| Time-of-Flight sensor vs Computer Vision plots |
+| --- |
+| ![Time-of-Flight sensor and Computer Vision displacement plots](figures/ReportFinal_Displacement.png) |
+
+| Computer Vision tracker overlay |
+| --- |
+| ![Computer Vision tracker overlay from analysis.py](figures/readme/analysis_overlay_screenshot.png) |
+
+| Time series synchronization |
+| --- |
+| ![Time series synchronization](figures/ReportFinal_SweepOverlay.png) |
+
+| Twist angle |
+| --- |
+| ![Twist angle](figures/ReportFinal_Twist.png) |
+
+| Noise standard deviation comparison |
+| --- |
+| ![Noise standard deviation comparison](figures/ReportFinal_NoiseStd.png) |
+
+| Bias correlation |
+| --- |
+| ![Bias correlation](figures/ReportFinal_DiffCorr.png) |
+
+| TOF bias model fit |
+| --- |
+| ![TOF bias model fit](figures/ReportFinal_DiffFits.png) |
 
 ## Notes
 
