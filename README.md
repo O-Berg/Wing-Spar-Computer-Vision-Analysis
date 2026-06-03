@@ -34,6 +34,28 @@ Run the interactive tracker:
 python scripts/analysis.py --video raw/IMG_5710.mov
 ```
 
+## Report Figures
+
+| Load response | TOF and CV displacement |
+| --- | --- |
+| ![Load response](figures/ReportFinal_Load.png) | ![TOF and CV displacement](figures/ReportFinal_Displacement.png) |
+
+| Offset sweep and overlay | Twist angle |
+| --- | --- |
+| ![Offset sweep and displacement overlay](figures/ReportFinal_SweepOverlay.png) | ![Twist angle](figures/ReportFinal_Twist.png) |
+
+| TOF vs CV comparison | Noise standard deviation |
+| --- | --- |
+| ![TOF vs CV comparison](figures/ReportFinal_TOF_vs_CV.png) | ![Noise standard deviation](figures/ReportFinal_NoiseStd.png) |
+
+| Trend check | Difference correlation |
+| --- | --- |
+| ![Trend check](figures/ReportFinal_TrendCheck.png) | ![Difference correlation](figures/ReportFinal_DiffCorr.png) |
+
+| Difference fit |
+| --- |
+| ![Difference fit](figures/ReportFinal_DiffFits.png) |
+
 ## Notes
 
 Generated `.png` figures are kept in the repository so the latest analysis outputs can be viewed without rerunning the scripts. Raw video files and local Python cache files are excluded.
