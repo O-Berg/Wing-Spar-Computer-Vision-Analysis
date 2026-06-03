@@ -83,7 +83,7 @@ def add_markers(ax, events):
 fig1, ax_load = plt.subplots(figsize=(9, 5))
 fig1.subplots_adjust(top=0.95)
 
-ax_load.scatter(time_full, load_full, c=time_full, cmap="viridis", s=6)
+ax_load.scatter(time_full, load_full, color="#2e7d32", s=6)
 ax_load.axhline(y=1100, color="red", linewidth=1)
 ax_load.set_xlabel("Time [s]")
 ax_load.set_ylabel("Load [N]")
