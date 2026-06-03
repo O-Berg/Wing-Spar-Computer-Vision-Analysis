@@ -1,0 +1,30 @@
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large raw video captures
+raw/*
+!raw/.gitkeep
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Temporary files
+*.tmp
+*.bak
+*.log

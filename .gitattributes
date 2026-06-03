@@ -1,0 +1,12 @@
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mov binary
+*.mp4 binary
+*.avi binary
+*.mkv binary
